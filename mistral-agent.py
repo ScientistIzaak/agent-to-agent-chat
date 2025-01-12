@@ -10,7 +10,7 @@ model = LiteLLMModel(
 
 
 @tool
-def addition(num1, num2) -> int:
+def addition(num1: str, num2: str) -> int:
     """
     Adds two numbers together.
 
